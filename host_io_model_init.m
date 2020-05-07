@@ -5,6 +5,8 @@ IPAddress = '192.168.1.101';
 
 % S2MM DMA (Rx capture) frame size
 S2MM_frame_size = 5e4;
+% S2MM_frame_size = 128e3; % Fs*1ms to see whole frame
+
 
 % Base rate of Host IO model
 TsHost = S2MM_frame_size/FPGAClkRate;
